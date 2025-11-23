@@ -16,6 +16,11 @@
         android:title="Resumen" />
 
     <item
+        android:id="@+id/nav_perfil"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Mi Perfil" />
+
+    <item
         android:id="@+id/nav_cerrar_sesion"
         android:icon="@android:drawable/ic_lock_power_off"
         android:title="Cerrar Sesión" />

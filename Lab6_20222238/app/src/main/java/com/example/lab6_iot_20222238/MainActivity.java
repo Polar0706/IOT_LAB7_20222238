@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.lab6_iot_20222238.databinding.ActivityMainBinding;
 import com.example.lab6_iot_20222238.fragments.MisVehiculosFragment;
+import com.example.lab6_iot_20222238.fragments.PerfilFragment;
 import com.example.lab6_iot_20222238.fragments.RegistrosFragment;
 import com.example.lab6_iot_20222238.fragments.ResumenFragment;
 import com.firebase.ui.auth.AuthUI;
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new RegistrosFragment();
             } else if (itemId == R.id.nav_resumen) {
                 fragment = new ResumenFragment();
+            } else if (itemId == R.id.nav_perfil) {
+                fragment = new PerfilFragment();
             } else if (itemId == R.id.nav_cerrar_sesion) {
                 cerrarSesion();
                 return true;
